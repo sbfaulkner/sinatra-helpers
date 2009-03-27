@@ -1,0 +1,29 @@
+= sinatra-helpers
+
+sinatra-helpers is an extension for sinatra that provides a bunch of useful helpers
+for sinatra applications.
+
+== Installation
+
+  sudo gem install sbfaulkner-sinatra-helpers -s http://gems.github.com
+
+== Usage
+
+To use the helpers simply:
+
+  require 'sinatra-helpers'
+
+If you don't want to include all of the functionality you can require specific
+functionality in smaller units:
+
+  require 'sinatra-helpers/haml'
+
+or even:
+
+  require 'sinatra-helpers/haml/partials'
+
+  
+== Legal
+
+Author:: S. Brent Faulkner <brentf@unwwwired.net>  
+License:: Copyright (c) 2009 unwwwired.net, released under the MIT license

@@ -4,10 +4,10 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |s|
     s.name = "sinatra-helpers"
-    s.summary = %Q{TODO}
+    s.summary = %Q{a bunch of useful helpers for sinatra applications}
     s.email = "brentf@unwwwired.net"
     s.homepage = "http://github.com/sbfaulkner/sinatra-helpers"
-    s.description = "TODO"
+    s.description = "a bunch of useful helpers for sinatra applications"
     s.authors = ["S. Brent Faulkner"]
   end
 rescue LoadError
