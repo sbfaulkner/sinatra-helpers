@@ -5,7 +5,7 @@ module Sinatra
     module Haml
       module Links
         def domain(tld_length = 1)
-          request.host.split('.')[-(tld_length+1)..-1].join('.')
+          request.host.split('.').last(1 + tld_length).join('.')
         end
 
         def subdomain(name, tld_length = 1)
